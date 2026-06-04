@@ -12,7 +12,7 @@ export default function Contact() {
           </p>
           <div className="contact-links">
             <a className="btn btn-primary" href="mailto:mollyryan143@gmail.com">
-              ✉️ mollyryan143@gmail.com
+              mollyryan143@gmail.com
             </a>
             <a className="btn btn-outline" href="https://github.com/mollyryan143" target="_blank" rel="noreferrer">
               GitHub

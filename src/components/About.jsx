@@ -39,7 +39,7 @@ export default function About() {
           </div>
 
           <div className="stats-card">
-            <h3>📊 QSS 20 Final Project — At a Glance</h3>
+            <h3>QSS 20 Final Project — At a Glance</h3>
             {stats.map(({ label, value }) => (
               <div key={label} className="stat-row">
                 <span className="stat-label">{label}</span>
