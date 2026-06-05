@@ -20,16 +20,16 @@ export default function Takeaway() {
         <div className="takeaway-box">
           <p>
             Children who ever received SNAP complete fewer grades on average than
-            children who did not — but this gap is not explained simply by differences
+            children who did not. However, this gap is not explained simply by differences
             in race, sex, family structure, or cognitive ability. The more interesting
             finding is <strong>how</strong> these factors work differently across the two groups.
             Mother's education, father's presence in the household, and being female
-            are all associated with higher grade completion in both groups — but these
+            are all associated with higher grade completion in both groups. It is important to note that these
             relationships are consistently weaker for SNAP children than for non-SNAP children.
           </p>
           <p style={{ marginTop: '0.75rem' }}>
             This suggests that the protective factors we typically associate with educational
-            success — family human capital, stable household structure — may "buy less" in
+            success, family human capital, stable household structure, may "buy less" in
             the context of food insecurity. Math achievement scores, on the other hand,
             appear to be <em>more</em> predictive within the SNAP group, hinting that cognitive
             ability may be a more reliable pathway to educational attainment for children
