@@ -16,7 +16,7 @@ export default function Geography() {
           <div className="figure-card">
             <img src="/figures/map_snap_rate_by_region.png" alt="SNAP receipt rate by region" />
             <div className="figure-caption">
-              <strong>Figure 5. SNAP Receipt Rate by Census Region</strong>
+              <strong>Figure 3. SNAP Receipt Rate by Census Region</strong>
               <p>
                 Darker shading indicates a higher share of children who ever received
                 SNAP/Food Stamps. The South has the highest SNAP receipt rate in this
@@ -28,7 +28,7 @@ export default function Geography() {
           <div className="figure-card">
             <img src="/figures/map_grade_gap_snap_vs_nonsnap.png" alt="Education gap by region" />
             <div className="figure-caption">
-              <strong>Figure 6. Education Gap: Non-SNAP vs. SNAP Children by Region</strong>
+              <strong>Figure 4. Education Gap: Non-SNAP vs. SNAP Children by Region</strong>
               <p>
                 This map shows the difference in average highest grade completed between
                 non-SNAP and SNAP children within each Census region. A larger value (darker)
