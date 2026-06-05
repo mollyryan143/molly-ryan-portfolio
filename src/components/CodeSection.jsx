@@ -13,7 +13,7 @@ export default function CodeSection() {
       <hr className="divider" />
       <div className="container" style={{ paddingTop: '4rem' }}>
         <p className="section-label">Code</p>
-        <h2 className="section-heading">How to Reproduce This Analysis</h2>
+        <h2 className="section-heading">How the Code Works</h2>
         <div className="code-grid" style={{ marginBottom: '1.5rem' }}>
           {scripts.map(s => (
             <div key={s.name} className="code-card">
@@ -39,7 +39,7 @@ export default function CodeSection() {
             href="https://github.com/mollyryan143/Qss20-snap-tanf-education-Molly-Ryan"
             target="_blank" rel="noreferrer"
           >
-            View Full Repository on GitHub →
+            View Full Repository on GitHub
           </a>
         </div>
       </div>
