@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Nav              from './components/Nav'
 import Hero             from './components/Hero'
+import About            from './components/About'
 import ResearchQuestion from './components/ResearchQuestion'
 import DataSection      from './components/DataSection'
 import Methods          from './components/Methods'
@@ -27,6 +28,7 @@ export default function App() {
       <Nav theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero />
+        <About />
         <ResearchQuestion />
         <DataSection />
         <Methods />
