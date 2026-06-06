@@ -23,9 +23,9 @@ export default function Geography() {
             <div className="figure-caption">
               <strong>Figure 4. Education Gap: Non-SNAP vs. SNAP Children by Region</strong>
               <p>
-                This map shows the difference in average highest grade completed between
+                This map shows the difference in average educational attainment between
                 non-SNAP and SNAP children within each Census region. A larger value (darker)
-                means the grade gap between the two groups is wider in that region.
+                means the attainment gap between the two groups is wider in that region.
                 The South shows the largest gap, suggesting regional context may matter
                 for how SNAP status relates to educational outcomes.
               </p>

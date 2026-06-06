@@ -1,33 +1,33 @@
 const findings = [
   {
-    title: "Mother's education is the single strongest predictor of grade completion, but it matters less for SNAP children",
-    detail: `Mother's education has the highest correlation with highest grade completed overall.
+    title: "Mother's education is the single strongest predictor of educational attainment, but it matters less for SNAP children",
+    detail: `Mother's education has the highest correlation with educational attainment overall.
       However, this relationship is noticeably weaker within the SNAP group than the non-SNAP group.
       This suggests that family human capital is less protective when a household is experiencing food insecurity.`,
   },
   {
     title: "Math scores are nearly as predictive as mother's education, and the gap between groups is notable",
-    detail: `Average math score has the second-highest correlation with grade completion.
+    detail: `Average math score has the second-highest correlation with educational attainment.
       The association is notably stronger for SNAP children than for non-SNAP children,
       suggesting that among children in food-insecure households,
-      academic ability plays an especially important role in determining how far they go in school.`,
+      academic ability plays an especially important role in shaping long-run educational outcomes.`,
   },
   {
-    title: 'Girls complete more grades than boys in both groups, and the gender gap is larger for SNAP children',
-    detail: `Being female is consistently associated with higher grade completion in both groups.
+    title: 'Girls score higher on the attainment scale than boys in both groups, and the gender gap is larger for SNAP children',
+    detail: `Being female is consistently associated with higher educational attainment in both groups.
       The gender gap is somewhat larger within the SNAP group than outside it.
       This may reflect that boys in food-insecure households face additional pressures, such as early labor force entry, that reduce their educational attainment relative to girls.`,
   },
   {
     title: "Father's presence in the household has a much weaker association for SNAP children",
-    detail: `For non-SNAP children, having a father present in the household is associated with meaningfully higher grade completion, and the effect is statistically significant.
+    detail: `For non-SNAP children, having a father present in the household is associated with meaningfully higher educational attainment, and the effect is statistically significant.
       For SNAP children, the estimated effect is smaller and not statistically significant.
       This suggests that two-parent family structure, while protective for non-SNAP families,
       is less reliably associated with better outcomes in households that also face food insecurity.`,
   },
   {
     title: "Being Black has opposite associations in the two groups",
-    detail: `Among non-SNAP children, being Black is negatively correlated with highest grade completed,
+    detail: `Among non-SNAP children, being Black is negatively correlated with educational attainment,
       consistent with well-documented racial gaps in educational attainment.
       However, within the SNAP group, the correlation flips to slightly positive.
       Neither estimate is statistically significant, but the reversal in direction suggests that once SNAP status is accounted for,
@@ -62,7 +62,7 @@ export default function Findings() {
               <div className="figure-caption">
                 <strong>Figure 1. OLS Coefficients: SNAP vs. Non-SNAP Children</strong>
                 <p>
-                  Each dot shows the estimated effect of a variable on highest grade completed,
+                  Each dot shows the estimated effect of a variable on educational attainment,
                   with 95% confidence intervals. Blue = non-SNAP children, orange = SNAP children.
                   Variables where the two groups' confidence intervals do not overlap indicate
                   meaningfully different relationships.
@@ -74,7 +74,7 @@ export default function Findings() {
               <div className="figure-caption">
                 <strong>Figure 2. Correlation Ranking by SNAP Status</strong>
                 <p>
-                  Pearson correlations between each predictor and highest grade completed,
+                  Pearson correlations between each predictor and educational attainment,
                   shown separately for all children (grey), non-SNAP (blue), and SNAP (orange).
                   Variables on the left are negatively correlated; variables on the right are
                   positively correlated. Note how father in household and Black race show

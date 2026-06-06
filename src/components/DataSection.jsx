@@ -1,5 +1,5 @@
 const variables = [
-  { name: 'highest_grade_category', type: 'Outcome', desc: 'Highest grade completed (0–20). 12 = HS diploma, 16 = bachelor\'s degree.' },
+  { name: 'highest_grade_category', type: 'Outcome', desc: 'Educational attainment on a 1–14 ordinal scale from the NLSCYA codebook. Higher values indicate greater attainment. Values are not literal years or grades completed.' },
   { name: 'any_snap', type: 'Key predictor', desc: 'Whether the child ever lived in a household receiving SNAP/Food Stamps across all observed survey waves.' },
   { name: 'mother_educ_latest', type: 'Control', desc: 'Mother\'s highest grade completed, measured at the most recent available survey wave.' },
   { name: 'father_in_hh_any', type: 'Control', desc: 'Whether a father figure was present in the household in any observed wave.' },

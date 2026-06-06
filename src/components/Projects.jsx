@@ -21,7 +21,7 @@ const projects = [
     icon: <TrendIcon />,
     title: 'SNAP & Educational Attainment',
     description:
-      'Analyzed how childhood SNAP receipt relates to highest grade completed using NLSCYA data (1979–2018). Built split-sample OLS regressions comparing SNAP vs. non-SNAP children across cognitive, family, and demographic factors.',
+      'Analyzed how childhood SNAP receipt relates to educational attainment using NLSCYA data (1979–2018). Built split-sample OLS regressions comparing SNAP vs. non-SNAP children across cognitive, family, and demographic factors.',
     tags: ['Python', 'statsmodels', 'pandas', 'OLS Regression'],
     link: 'https://github.com/mollyryan143/Qss20-snap-tanf-education-Molly-Ryan',
     linkLabel: 'View on GitHub →',
@@ -39,7 +39,7 @@ const projects = [
     icon: <BrainIcon />,
     title: 'Cognitive Ability & Welfare Outcomes',
     description:
-      'Extracted PPVT verbal scores and math achievement scores across 15 survey waves from raw NLSCYA data. Ran correlation and full OLS models to compare how cognitive ability predicts grade completion differently for SNAP vs. non-SNAP children.',
+      'Extracted PPVT verbal scores and math achievement scores across 15 survey waves from raw NLSCYA data. Ran correlation and full OLS models to compare how cognitive ability predicts educational attainment differently for SNAP vs. non-SNAP children.',
     tags: ['Python', 'PPVT', 'Regression', 'NLSCYA'],
     link: 'https://github.com/mollyryan143/Qss20-snap-tanf-education-Molly-Ryan',
     linkLabel: 'View on GitHub →',

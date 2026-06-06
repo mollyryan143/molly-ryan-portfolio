@@ -16,11 +16,11 @@ export default function Takeaway() {
 
         <div className="takeaway-box">
           <p>
-            Ultimately, the results show that children who ever received SNAP complete fewer grades on average than
+            Ultimately, the results show that children who ever received SNAP score lower on the attainment scale on average than
             children who did not. This gap is not explained simply by differences in race, sex, family structure,
             or cognitive ability. Rather, this project reveals how these family background factors operate differently
             across the two groups. Mother's education, father's presence in the household, and being female are all
-            associated with higher grade completion in both groups, but these relationships are consistently weaker
+            associated with higher educational attainment in both groups, but these relationships are consistently weaker
             for SNAP children than for non-SNAP children.
           </p>
           <p style={{ marginTop: '0.75rem' }}>
